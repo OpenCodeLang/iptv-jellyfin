@@ -1,0 +1,31 @@
+#EXTM3U
+
+# — Irish Radio  
+#EXTINF:-1,RTÉ Radio 1  
+https://liveaudio.rte.ie/hls-radio/radio1/playlist.m3u8  
+#EXTINF:-1,Spin 103.8 (Dublin)  
+https://icecast.spin1038.com/Spin1038_MP3  
+#EXTINF:-1,FM 104 (Dublin)  
+https://live.fm104.ie/fm104_live.mp3  
+#EXTINF:-1,East Coast FM (Wicklow)  
+https://icecast.eastcoast.fm:8000/;stream.mp3  
+#EXTINF:-1,Christmas FM (Ireland)  
+https://live.christmasfm.com/stream/mp3  
+
+# — Irish TV  
+#EXTINF:-1,RTÉ One (Ireland)  
+https://iptv-org.github.io/iptv/countries/ie.m3u?filter=RTÉ1  
+#EXTINF:-1,RTÉ2 (Ireland)  
+https://iptv-org.github.io/iptv/countries/ie.m3u?filter=RTÉ2  
+
+# — UK Channels (select few)  
+#EXTINF:-1,BBC One (UK)  
+https://iptv-org.github.io/iptv/countries/uk.m3u?filter=BBC One  
+#EXTINF:-1,Channel 4 (UK)  
+https://iptv-org.github.io/iptv/countries/uk.m3u?filter=Channel 4  
+
+# — UAE Radio  
+#EXTINF:-1,Al Arabiya 99 (Dubai)  
+https://onlineradiobox.com/ae/alarabiya99/stream  
+#EXTINF:-1,HIT 96.7 FM (Dubai)  
+https://www.hit967.ae/stream  
