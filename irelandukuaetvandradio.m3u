@@ -1,28 +1,31 @@
 #EXTM3U
 
-# — Irish Radio  
-#EXTINF:-1,RTÉ Radio 1  
-https://liveaudio.rte.ie/hls-radio/radio1/playlist.m3u8  ; example stream from Irish audio streams list :contentReference[oaicite:1]{index=1}  
-#EXTINF:-1,FM 104 (Dublin)  
-https://live.fm104.ie/fm104_live.mp3  ; example link from radio directory :contentReference[oaicite:2]{index=2}  
-#EXTINF:-1,East Coast FM (Wicklow)  
-https://icecast.eastcoast.fm:8000/;stream.mp3  ; East Coast listing in Ireland stream list :contentReference[oaicite:3]{index=3}  
+# — Irish Radio
+#EXTINF:-1,RTÉ Radio 1
+https://liveaudio.rte.ie/hls-radio/radio1/playlist.m3u8
+#EXTINF:-1,Spin 103.8 (Dublin)
+https://icecast.spin1038.com/Spin1038_MP3
+#EXTINF:-1,FM 104 (Dublin)
+https://live.fm104.ie/fm104_live.mp3
+#EXTINF:-1,East Coast FM (Wicklow)
+https://icecast.eastcoast.fm:8000/;stream.mp3
+#EXTINF:-1,Christmas FM
+https://live.christmasfm.com/stream/mp3
 
-# — Irish TV (Saorview • Free‑to‑air)  
-#EXTINF:-1,RTÉ One (Ireland)  
-https://www.coolstreaming.us/channelnew/54267/RTEONE.html  ; stream page for RTÉ One :contentReference[oaicite:4]{index=4}  
-#EXTINF:-1,TG4 (Ireland)  
-https://www.tvchannellists.com/w/List_of_channels_on_Saorsat_%28Ireland%29  ; note: lists TG4 in Saorsat channels :contentReference[oaicite:5]{index=5}  
+# — Irish TV (Saorview)
+#EXTINF:-1,RTÉ One
+https://www.coolstreaming.us/channelnew/54267/RTEONE.html
+#EXTINF:-1,TG4
+https://www.tvchannellists.com/w/List_of_channels_on_Saorsat_%28Ireland%29
 
-# — UK (select few)  
-#EXTINF:-1,BBC Radio 1 (UK)  
-https://www.radio-uk.co.uk/bbc-radio-1  ; live stream page for BBC Radio 1 :contentReference[oaicite:6]{index=6}  
-#EXTINF:-1,BBC One (UK TV)  
-https://livehdtv.com/bbc-one/  ; stream listing for BBC One :contentReference[oaicite:7]{index=7}  
+# — UK
+#EXTINF:-1,BBC Radio 1
+https://www.radio-uk.co.uk/bbc-radio-1
+#EXTINF:-1,BBC One
+https://livehdtv.com/bbc-one/
 
-# — UAE (2 selected)  
-#EXTINF:-1,Al Arabiya 99 FM (Dubai)  
-https://onlineradiobox.com/ae/alarabiya99/stream  ; online stream listing for station :contentReference[oaicite:8]{index=8}  
-#EXTINF:-1,Hit 96.7 FM (Dubai)  
-https://www.hit967.ae/stream  ; official site stream listing for station  
-
+# — UAE
+#EXTINF:-1,Al Arabiya 99 FM (Dubai)
+https://onlineradiobox.com/ae/alarabiya99/stream
+#EXTINF:-1,HIT 96.7 FM (Dubai)
+https://www.hit967.ae/stream
